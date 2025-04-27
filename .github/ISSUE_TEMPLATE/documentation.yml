@@ -1,0 +1,29 @@
+name: 📚 Documentation Suggestion
+description: Report missing, confusing, or wrong documentation
+title: "[Docs]: "
+labels: ["documentation"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help keep our docs crystal clear! 🧹
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Which Doc/Page
+      description: Where is the issue? (link if possible)
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What Could Be Better?
+      description: Suggest clearer wording, examples, missing sections, etc.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Context
+      description: Anything else that would help us fix it?

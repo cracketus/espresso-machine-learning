@@ -1,0 +1,48 @@
+name: 🐛 Bug Report
+description: File a bug/issue you're encountering
+title: "[Bug]: "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Espresso Machine Learning! ☕
+        Please describe the bug clearly so we can fix it fast.
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, and any relevant tools (e.g., WSL, Docker)
+      placeholder: e.g., Ubuntu 22.04, Python 3.10
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide clear steps.
+      placeholder: |
+        1. Go to '...'
+        2. Run '...'
+        3. See error '...'
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs/Outputs
+      description: Paste any error messages or screenshots.
+      render: shell
